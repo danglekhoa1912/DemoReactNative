@@ -1,6 +1,6 @@
 // components/WalkthroughScreen.js
-import React, {useEffect} from 'react';
-import {View, Text, StyleSheet, Animated} from 'react-native';
+import React, { useEffect } from 'react';
+import { Animated, StyleSheet, Text, View } from 'react-native';
 
 type WalkthroughScreenProps = {
   description: string;
